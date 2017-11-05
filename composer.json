@@ -1,0 +1,30 @@
+{
+  "name": "ci-tests",
+  "description": "ci-phpunit-test",
+  "license": "MIT",
+  "keywords": [
+    "ci phpunit"
+  ],
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "yars-sw",
+      "email": "sunweiyars@didichuxing.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/xiaowei520/ci-test",
+      "reference":"master"
+    }
+  ],
+  "require": {
+  },
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "optimize-autoloader": true,
+    "secure-http": false
+  }
+}
